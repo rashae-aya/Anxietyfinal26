@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    
+    "navbar navbar"
+    "banner banner"
+    "img_1 text_1"
+    "text_2 text_2"
+    "vid_1 vid_1"
+    "help quote"
+    "footer footer";
+    
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: hsl(180, 100%, 50%);
+}
+
+.banner{
+    grid-area: banner;
+    background-color: rgb(200, 200, 230);
+}
+
+.img_1{
+    grid-area: img_1;
+    background-color: rgb(180, 197, 197);
+}
+
+.text_1{
+    grid-area: text_1;
+    background-color: azure;
+}
+
+.text_2{
+    grid-area: text_2;
+    background-color: rgb(198, 241, 241);
+}
+
+.vid_1{
+    grid-area: vid_1;
+    background-color: rgb(237, 241, 245);
+}
+
+.help{
+    grid-area: help;
+    background-color: rgb(154, 219, 219);
+}
+
+.quote{
+    grid-area: quote;
+    background-color: rgb(100, 123, 136);
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(80, 77, 77);
+}
