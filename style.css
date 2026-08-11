@@ -12,50 +12,91 @@
     "vid_1 vid_1"
     "help quote"
     "footer footer";
+    grid-gap: 0.5rem;
     
 }
 
 .navbar{
     grid-area: navbar;
     background-color: hsl(180, 100%, 50%);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    line-height: 2;
+    text-align: justify;
+    padding-left: 5%;
+
+
 }
 
 .banner{
     grid-area: banner;
     background-color: rgb(200, 200, 230);
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .img_1{
     grid-area: img_1;
     background-color: rgb(180, 197, 197);
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .text_1{
     grid-area: text_1;
     background-color: azure;
+    border-style: solid;
+    border-radius: 20px;
+    line-height: 2;
+    text-align: justify;
+    padding: 5%;
+
 }
 
 .text_2{
     grid-area: text_2;
     background-color: rgb(198, 241, 241);
+    border-style: solid;
+    border-radius: 20px;
+    line-height: 2;
+    text-align: justify;
+    padding: 5%;
 }
 
 .vid_1{
     grid-area: vid_1;
     background-color: rgb(237, 241, 245);
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .help{
     grid-area: help;
     background-color: rgb(154, 219, 219);
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .quote{
     grid-area: quote;
     background-color: rgb(100, 123, 136);
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .footer{
     grid-area: footer;
     background-color: rgb(80, 77, 77);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+
+img{
+    width: 400px;
+    height: auto;
+    padding: 5%;
 }
