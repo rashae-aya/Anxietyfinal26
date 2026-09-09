@@ -17,7 +17,6 @@
 
 .navbar{
     grid-area: navbar;
-    background-color:6096ba;
     line-height: 2;
     padding-left: 5%;
     background-color: #118ba3;
@@ -50,18 +49,19 @@
     grid-area: banner;
     background-color: #ADE8F4;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .img_1{
     grid-area: img_1;
-    background-color:6096ba;
+   
     text-align: center;
+    padding: 5%;
 }
 
 .text_1{
     grid-area: text_1;
-    background-color:78c0e0;
+    
     line-height: 2;
     text-align: justify;
     padding: 5%;
@@ -70,7 +70,7 @@
 
 .text_2{
     grid-area: text_2;
-    background-color: 6096ba;
+    
     line-height: 2;
     text-align: justify;
     padding: 5%;
@@ -78,20 +78,18 @@
 
 .vid_1{
     grid-area: vid_1;
-    background-color: 6096ba;
     text-align: center;
     
 }
 
 .help{
     grid-area: help;
-    background-color: e5989b;
     border-style: solid;
     border-radius: 10px;
     border-color: #118ba3;
     margin: 10%;
     padding: 5%;
-    text-align: center;
+    text-align: left;
 }
 
 .quote{
@@ -102,6 +100,7 @@
     margin: 10%;
         padding: 5%;
     text-align: center;
+    font-style: italic;
 }
 
 .footer{
