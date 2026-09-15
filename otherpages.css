@@ -5,7 +5,8 @@
     grid-template-areas: 
     "navbar navbar"
     "banner banner"
-    "img_1 text_1"
+    "img_1 img_2"
+    "text_1 text_1"
     "text_2 text_2"
     "vid_1 vid_1"
     "help quote"
@@ -54,7 +55,12 @@
 
 .img_1{
     grid-area: img_1;
-   
+   text-align: center;
+    padding: 5%;
+}
+
+.img_2{
+    grid-area: img_2;
     text-align: center;
     padding: 5%;
 }
@@ -89,7 +95,7 @@
     border-color: #118ba3;
     margin: 10%;
     padding: 5%;
-    text-align: center;
+    text-align: left;
 }
 
 .quote{
